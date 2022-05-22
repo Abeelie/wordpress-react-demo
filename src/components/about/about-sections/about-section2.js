@@ -21,7 +21,7 @@ const AboutSection2 = () => {
                     <img 
                         id="wp-image-about2"
                         src={data.page.featuredImage.node.mediaItemUrl} 
-                        alt="About-Image"
+                        alt="About"
                     />
                 </div>
             </div>
