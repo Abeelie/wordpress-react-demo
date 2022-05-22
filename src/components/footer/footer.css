@@ -1,0 +1,21 @@
+footer.footer.has-text-white {
+    /* margin-top: 180px; */
+    background-color: black;
+}
+
+
+.footer-text {
+    height: 0px !important;
+}
+
+.footer-icons {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+.facebook-icon, .twitter-icon, .instagram-icon {
+    color: white;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,43 @@
+.hero-section {
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-text {
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+.hero-title > p {
+    text-indent: 0% !important;
+    font-size: 40px;
+    height: 0% !important;
+}
+
+#myImage {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    height: 1000px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transform: translate(-50%, -50%);
+    z-index: -1;
+} 
+
+@media only screen and (max-width: 1000px) {
+    #myImage {
+        height: 1000px;
+    }
+    .hero-title > p {
+        text-indent: 0% !important;
+        font-size: 40px;
+        height: 0% !important;
+    }
+}
+
+
+
+

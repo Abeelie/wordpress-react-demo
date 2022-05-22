@@ -1,0 +1,26 @@
+.planets-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.planets-section {
+    margin: 100px;
+    column-count: 2;
+    margin-bottom: 400px;
+}
+
+.images-planets-section > figure {
+    margin-bottom: 100px;
+    transition: transform 1000ms ease-in-out;
+}
+
+.images-planets-section > figure:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 700px) {
+    .planets-section {
+        column-count: 1;
+    }
+}

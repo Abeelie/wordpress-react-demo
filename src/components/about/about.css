@@ -1,0 +1,13 @@
+.about-title {
+    margin-top: 700px;
+    text-align: center;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-title {
+        margin-top: 500px;
+        text-align: center;
+        font-size: 40px;
+    }
+}
